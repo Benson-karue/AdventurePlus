@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="4dp">
+
+    <!--on below line we are creating
+        a linear layout for grid view item-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--on below line we are creating
+            a simple image view-->
+
+        <!--on below line we are creating
+            a simple text view-->
+        <ImageView
+            android:id="@+id/iv_Locationpic"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+
+            android:background="#68A7BAEF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:drawableStart="@drawable/baseline_location_on_24"
+            android:text="Maasai Mara"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+            <TextView
+                android:text="|"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/BookingBtn"
+            android:backgroundTint="#436CE8"
+            android:text="BOOK"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="100dp"
+            android:layout_height="45dp"/>
+
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/CostTV"
+            android:text="Cost"
+            android:textSize="25sp"
+            android:background="#868A83"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            android:drawableStart="@drawable/baseline_attach_money_24"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+
+        <ScrollView
+            android:background="@color/blue"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <TextView
+                android:id="@+id/tv_Locdescription"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="15dp"
+                android:text="The Masai Mara welcomes 1.5 million wildebeests."
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

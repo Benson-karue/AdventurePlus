@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "741173990804",
+    "project_id": "adventureplus-2ca1c",
+    "storage_bucket": "adventureplus-2ca1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741173990804:android:6c7b92d0319e414889ab81",
+        "android_client_info": {
+          "package_name": "com.example.adventureplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741173990804-lvnrbq91ctb3tl0o96srnh6eedjmerj6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVcJVeVmsSYbmMre4Oi9F-Tle2DqseRZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741173990804-lvnrbq91ctb3tl0o96srnh6eedjmerj6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

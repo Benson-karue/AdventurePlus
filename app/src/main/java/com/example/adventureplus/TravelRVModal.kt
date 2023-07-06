@@ -1,0 +1,11 @@
+/* package com.example.adventureplus
+
+data class TravelRVModal(
+        // on below line we are creating a two variable
+        // one for course name and other for course image.
+        var LocationName: String,
+        val Cost:String,
+        val LocationInfo: String,
+        var LocationImg: Int
+    )
+*/
